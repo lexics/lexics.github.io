@@ -1,0 +1,18 @@
+title: Lexics
+iconURL: assets/lexics.png
+theme: jekyll-theme-leaf
+
+# for a clean URL
+permalink: :slug
+
+social:
+  twitter: BADALAK6285
+  github: shaswatkumar362
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+### comments & analytics
+hyvor_talk_website_id: 14
+google_analytics: UA-NNNNNNNN-N
