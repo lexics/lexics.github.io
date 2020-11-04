@@ -210,6 +210,7 @@ article, .comments, .box {
 
 .site-title {
   font-size: 1.625rem;
+  font-family: "Source Code Pro", monospace;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
@@ -226,7 +227,6 @@ article, .comments, .box {
   margin-top: -47px;
   width: 70px;
   height: 70px;
-  padding: 14px;
   background: #272726;
   border-radius: 50%; }
   @media screen and (max-width: 600px) {
@@ -234,6 +234,9 @@ article, .comments, .box {
       width: 50px;
       height: 50px;
       margin-top: -25px; } }
+
+.site-icon img {
+  border-radius: 50%; }
 
 .site-nav {
   position: absolute;
@@ -269,7 +272,9 @@ article, .comments, .box {
     padding: 10px; }
   .site-nav .page-link {
     display: block;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    font-family: "Source Code Pro", monospace;
+    font-size: larger; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 0; }
     .site-nav .page-link:hover {
