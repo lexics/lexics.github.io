@@ -79,7 +79,9 @@ Jump into the [next-section](#solving-the-security-policy-error) of this article
 ImageMagick has some security policies disabling some rights for security reasons.
 You will have to edit a config file to re-enble the action you need.
 
-Open `/etc/ImageMagick-6/policy.xml` with your favorite text editor, find the line `<policy domain="coder" rights="none" pattern="PDF" />` and replace `"none"` by `"read|write"`
+Open <span style="color:orange">/etc/ImageMagick-6/policy.xml</span> with your favorite text editor, find the line
+<br>
+<span style="color:orange">`<policy domain="coder" rights="none" pattern="PDF" />`</span> and replace <span style="color:orange">none</span> by <span style="color:orange">read|write"</span>
 
 Step By Step Process to achieve the things mentioned above
 
