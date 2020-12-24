@@ -6,8 +6,6 @@ title: How To Merge Multiple PDF/Images to PDF In Ubuntu Linux(ImageMagick)
 
 It's not very uncommon that we might need to merge different PDF's or images into one PDF in our daily task. So in this article we learn about a very powerful command line tool called ImageMagick and learn how to use it.
 
-<br>
-
 ## Installing ImageMagick through **apt**
 
 ---
@@ -24,8 +22,6 @@ Open the terminal and execute the following:
 
 - Next execute the following command to install ImageMagick:
   > `sudo apt install imagemagick`
-
-<br>
 
 ## Using ImageMagick to merge multiple images into one PDF
 
@@ -44,8 +40,6 @@ If you get the following error while converting to PDF:
 > `convert: attempt to perform an operation not allowed by the security policy 'PDF' @ error/constitute.c/IsCoderAuthorized/408`
 
 Jump to [Solving the Security Policy Error](#solving-the-security-policy-error) section where we have discussed how to solve this issue.
-
-<br>
 
 ## Using ImageMagick to merge multiple PDF into one PDF
 
@@ -69,8 +63,6 @@ If you get the following error while converting to PDF:
 > `convert: attempt to perform an operation not allowed by the security policy 'PDF' @ error/constitute.c/IsCoderAuthorized/408`
 
 Jump into the [next-section](#solving-the-security-policy-error) of this article to solve this error.
-
-<br>
 
 ## Solving the Security Policy Error
 
