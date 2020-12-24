@@ -1,6 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-05T19:27:25+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lexics</title><entry><title type="html">How To Merge Multiple PDF/Images to PDF In Ubuntu Linux(ImageMagick)</title><link href="http://localhost:4000/imagemagick" rel="alternate" type="text/html" title="How To Merge Multiple PDF/Images to PDF In Ubuntu Linux(ImageMagick)" /><published>2020-11-05T00:00:00+05:30</published><updated>2020-11-05T00:00:00+05:30</updated><id>http://localhost:4000/ImageMagick</id><content type="html" xml:base="http://localhost:4000/imagemagick">&lt;p&gt;It’s not very uncommon that we might need to merge different PDF’s or images into one PDF in our daily task. So in this article we learn about a very powerful command line tool called ImageMagick and learn how to use it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-24T13:12:12+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lexics</title><entry><title type="html">Installing Microsoft Fonts on Linux(Comprehensive Guide)</title><link href="http://localhost:4000/installing-ms-fonts" rel="alternate" type="text/html" title="Installing Microsoft Fonts on Linux(Comprehensive Guide)" /><published>2020-12-24T00:00:00+05:30</published><updated>2020-12-24T00:00:00+05:30</updated><id>http://localhost:4000/Installing-MS-Fonts</id><content type="html" xml:base="http://localhost:4000/installing-ms-fonts">&lt;p&gt;After installing Linux, one of the most important thing to do is installing essential Microsoft Fonts that you will need while working with Microsoft Office Documents, Microsoft Teams, or on the web. It is important to do so as many times you won’t be able to process the documents correctly when you try to open it with diffrent font sets.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;In this article we will cover how to install all the essential Microsoft Fonts.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-microsoft-core-truetype-fonts-on-ubuntu-based-linux-distributions&quot;&gt;Installing Microsoft Core TrueType Fonts on Ubuntu-based Linux distributions&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Microsoft Fonts doesn’t come pre-installed in Linux. The reason behind it is that these fonts are not Open Source and are owned by Microsoft and many linux distributions don’t provide proprietary software by default to avoid licensing issue. But Microsoft has released its Core TrueType Fonts for free of charge.&lt;/p&gt;
+
+&lt;p&gt;Since this is not an Open Source software, you need to first enable the &lt;strong&gt;multiverse repository&lt;/strong&gt;. To do so execute the following command:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo add-apt-repository multiverse&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now to install Microsoft Core TrueType Fonts, execute the following command:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo apt update &amp;amp;&amp;amp; sudo apt install ttf-mscorefonts-installer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After that press &lt;strong&gt;OK&lt;/strong&gt;(using ENTER button) when Microsoft’s End user agreement appears(use &lt;strong&gt;TAB&lt;/strong&gt; for moving the cursor to &lt;strong&gt;OK&lt;/strong&gt; button).Then press &lt;strong&gt;Yes&lt;/strong&gt; to accept the Microsoft’s agreement.&lt;/p&gt;
+
+&lt;p&gt;In case that you accidentally reject the license agreement, you can reinstall the installer with the following command:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo apt install –reinstall ttf-mscorefonts-installer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This package installs the following fonts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Andale Mono&lt;/li&gt;
+  &lt;li&gt;Arial Black&lt;/li&gt;
+  &lt;li&gt;Arial (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Comic Sans MS (Bold)&lt;/li&gt;
+  &lt;li&gt;Courier New (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Georgia (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Impact&lt;/li&gt;
+  &lt;li&gt;Times New Roman (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Trebuchet (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Verdana (Bold, Italic, Bold Italic)&lt;/li&gt;
+  &lt;li&gt;Webdings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installing-microsoft-cleartype-fonts&quot;&gt;Installing Microsoft ClearType Fonts&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Microsoft ClearType Fonts was first introduced in Windows Vista and in Office 2007 and since then it has been a part of Windows and thus is very essential when working with Microsoft Documents. The ClearType Fonts Collection includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Calibri&lt;/li&gt;
+  &lt;li&gt;Cambria&lt;/li&gt;
+  &lt;li&gt;Candara&lt;/li&gt;
+  &lt;li&gt;Consolas&lt;/li&gt;
+  &lt;li&gt;Constantia&lt;/li&gt;
+  &lt;li&gt;Corbel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To install ClearType Fonts, execute the following command:&lt;/p&gt;
+
+&lt;pre style=&quot;color:#86bb48&quot;&gt;
+wget -q -O - https://gist.githubusercontent.com/Blastoise/72e10b8af5ca359772ee64b6dba33c91/raw/2d7ab3caa27faa61beca9fbf7d3aca6ce9a25916/clearType.sh | bash
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;installing-tahoma-and-segoe-ui-fonts&quot;&gt;Installing Tahoma and Segoe-UI Fonts&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Tahoma is a part of TrueType Fonts by Microsoft but is not available in &lt;strong&gt;ttf-mscorefonts-installer&lt;/strong&gt; package and thus need to be installed manually.&lt;/p&gt;
+
+&lt;p&gt;To install Tahoma Fonts, execute the following command:&lt;/p&gt;
+
+&lt;pre style=&quot;color:#86bb48&quot;&gt;
+wget -q -O - https://gist.githubusercontent.com/Blastoise/b74e06f739610c4a867cf94b27637a56/raw/96926e732a38d3da860624114990121d71c08ea1/tahoma.sh | bash
+&lt;/pre&gt;
+
+&lt;p&gt;Segoe UI font is probably one of the most important font that we will install in this blog. This font is now used by Microsoft in every project and thus can be regarded as the font that will become a standard very soon.&lt;/p&gt;
+
+&lt;p&gt;To install Segoe-UI Fonts, execute the following command:&lt;/p&gt;
+
+&lt;pre style=&quot;color:#86bb48&quot;&gt;
+wget -q -O - https://gist.githubusercontent.com/Blastoise/64ba4acc55047a53b680c1b3072dd985/raw/6bdf69384da4783cc6dafcb51d281cb3ddcb7ca0/segoeUI.sh | bash
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;installing-other-essential-fonts&quot;&gt;Installing Other Essential Fonts&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This section deals with installing essential fonts that you will require when opening documents containing Maths symbols and thus is used for correct processing of these characters.
+We will install the following fonts in this section:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mtextra.ttf&lt;/li&gt;
+  &lt;li&gt;symbol.ttf&lt;/li&gt;
+  &lt;li&gt;webdings.ttf&lt;/li&gt;
+  &lt;li&gt;wingding.ttf&lt;/li&gt;
+  &lt;li&gt;wingdng2.ttf&lt;/li&gt;
+  &lt;li&gt;wingdng3.ttf&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To install these fonts, execute the following command:&lt;/p&gt;
+
+&lt;pre style=&quot;color:#86bb48&quot;&gt;
+wget -q -O - https://gist.githubusercontent.com/Blastoise/d959d3196fb3937b36969013d96740e0/raw/429d8882b7c34e5dbd7b9cbc9d0079de5bd9e3aa/otherFonts.sh | bash
+&lt;/pre&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://itsfoss.com/install-microsoft-fonts-ubuntu/&quot;&gt;It’s FOSS&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:orange&quot;&gt;Fun Fact:&lt;/h4&gt;
+
+&lt;p&gt;After installing Segoe-UI fonts this page will look different on many systems as it uses Segoe-UI font.&lt;/p&gt;
+
+&lt;p&gt;We come to an end of this comprehensive guide of installing Microsoft Fonts. I hope this article helped you in doing so.&lt;/p&gt;
+
+&lt;p&gt;Questions, suggestions, a word of thanks is always encouraged.&lt;/p&gt;</content><author><name>Ashutosh Kumar</name></author><summary type="html">After installing Linux, one of the most important thing to do is installing essential Microsoft Fonts that you will need while working with Microsoft Office Documents, Microsoft Teams, or on the web. It is important to do so as many times you won’t be able to process the documents correctly when you try to open it with diffrent font sets.</summary></entry><entry><title type="html">How To Merge Multiple PDF/Images to PDF In Ubuntu Linux(ImageMagick)</title><link href="http://localhost:4000/imagemagick" rel="alternate" type="text/html" title="How To Merge Multiple PDF/Images to PDF In Ubuntu Linux(ImageMagick)" /><published>2020-11-05T00:00:00+05:30</published><updated>2020-11-05T00:00:00+05:30</updated><id>http://localhost:4000/ImageMagick</id><content type="html" xml:base="http://localhost:4000/imagemagick">&lt;p&gt;It’s not very uncommon that we might need to merge different PDF’s or images into one PDF in our daily task. So in this article we learn about a very powerful command line tool called ImageMagick and learn how to use it.&lt;/p&gt;
 
 &lt;h2 id=&quot;installing-imagemagick-through-apt&quot;&gt;Installing ImageMagick through &lt;strong&gt;apt&lt;/strong&gt;&lt;/h2&gt;
 
@@ -28,8 +145,6 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
 &lt;h2 id=&quot;using-imagemagick-to-merge-multiple-images-into-one-pdf&quot;&gt;Using ImageMagick to merge multiple images into one PDF&lt;/h2&gt;
 
 &lt;hr /&gt;
@@ -51,8 +166,6 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Jump to &lt;a href=&quot;#solving-the-security-policy-error&quot;&gt;Solving the Security Policy Error&lt;/a&gt; section where we have discussed how to solve this issue.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;using-imagemagick-to-merge-multiple-pdf-into-one-pdf&quot;&gt;Using ImageMagick to merge multiple PDF into one PDF&lt;/h2&gt;
 
@@ -82,8 +195,6 @@ That is :&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Jump into the &lt;a href=&quot;#solving-the-security-policy-error&quot;&gt;next-section&lt;/a&gt; of this article to solve this error.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;solving-the-security-policy-error&quot;&gt;Solving the Security Policy Error&lt;/h2&gt;
 
